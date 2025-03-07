@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Dataprovider.Data_provider_demo">
+      <class name="Assertions_demo.Softa">
         <methods>
-          <include name="Setup"/>
-          <include name="teardown"/>
-          <include name="testRegister" invocation-numbers="2 4"/>
+          <include name="test2"/>
+          <include name="test1"/>
         </methods>
-      </class> <!-- Dataprovider.Data_provider_demo -->
+      </class> <!-- Assertions_demo.Softa -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

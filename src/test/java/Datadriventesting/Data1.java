@@ -55,7 +55,7 @@ public class Data1 {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 		driver.get("https://practice.expandtesting.com/login");
 		JavascriptExecutor js=(JavascriptExecutor)driver;
-		js.executeScript("window.scrollBy(0,1200)");
+		js.executeScript("window.scrollBy(0,1200);");
 		WebElement user = driver.findElement(By.id("username"));
 		WebElement pass = driver.findElement(By.id("password"));
 		user.sendKeys(u);
