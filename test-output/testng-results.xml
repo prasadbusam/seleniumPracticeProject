@@ -1,27 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-07T13:23:29 IST" name="Default suite" finished-at="2025-03-07T13:23:29 IST" duration-ms="106">
+  <suite started-at="2025-03-10T13:03:37 IST" name="Default suite" finished-at="2025-03-10T13:04:03 IST" duration-ms="25986">
     <groups>
     </groups>
-    <test started-at="2025-03-07T13:23:29 IST" name="Default test" finished-at="2025-03-07T13:23:29 IST" duration-ms="106">
-      <class name="Assertions_demo.Softa">
-        <test-method signature="test1()[pri:0, instance:Assertions_demo.Softa@25641d39]" started-at="2025-03-07T13:23:29 IST" name="test1" finished-at="2025-03-07T13:23:29 IST" duration-ms="23" status="FAIL">
+    <test started-at="2025-03-10T13:03:37 IST" name="Default test" finished-at="2025-03-10T13:04:03 IST" duration-ms="25986">
+      <class name="Listener.Orange_hrm">
+        <test-method is-config="true" signature="Seup()[pri:0, instance:Listener.Orange_hrm@5149d738]" started-at="2025-03-10T13:03:37 IST" name="Seup" finished-at="2025-03-10T13:03:43 IST" duration-ms="6502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Seup -->
+        <test-method signature="Testlogo()[pri:1, instance:Listener.Orange_hrm@5149d738]" started-at="2025-03-10T13:03:43 IST" name="Testlogo" finished-at="2025-03-10T13:03:47 IST" duration-ms="3958" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [5] but found [10]]]>
+              <![CDATA[expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [5] but found [10]
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1578)
 at org.testng.Assert.assertEqualsImpl(Assert.java:150)
 at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:1419)
-at org.testng.Assert.assertEquals(Assert.java:1383)
-at org.testng.Assert.assertEquals(Assert.java:1429)
-at Assertions_demo.Softa.test1(Softa.java:11)
+at org.testng.Assert.assertEquals(Assert.java:1067)
+at org.testng.Assert.assertEquals(Assert.java:1031)
+at org.testng.Assert.assertEquals(Assert.java:1077)
+at Listener.Orange_hrm.Testlogo(Orange_hrm.java:32)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -53,55 +57,20 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method signature="test2()[pri:0, instance:Assertions_demo.Softa@25641d39]" started-at="2025-03-07T13:23:29 IST" name="test2" finished-at="2025-03-07T13:23:29 IST" duration-ms="12" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [5] but found [10]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [5] but found [10]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:1419)
-at org.testng.Assert.assertEquals(Assert.java:1383)
-at org.testng.Assert.assertEquals(Assert.java:1429)
-at Assertions_demo.Softa.test2(Softa.java:19)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- Testlogo -->
+        <test-method signature="Testurl()[pri:2, instance:Listener.Orange_hrm@5149d738]" started-at="2025-03-10T13:03:47 IST" name="Testurl" finished-at="2025-03-10T13:03:53 IST" duration-ms="6037" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
-      </class> <!-- Assertions_demo.Softa -->
+        </test-method> <!-- Testurl -->
+        <test-method signature="TestHomepageTitle()[pri:3, instance:Listener.Orange_hrm@5149d738]" started-at="2025-03-10T13:03:53 IST" name="TestHomepageTitle" finished-at="2025-03-10T13:03:59 IST" duration-ms="6048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestHomepageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Listener.Orange_hrm@5149d738]" started-at="2025-03-10T13:03:59 IST" name="tearDown" finished-at="2025-03-10T13:04:03 IST" duration-ms="3363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Listener.Orange_hrm -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
