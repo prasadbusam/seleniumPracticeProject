@@ -22,16 +22,16 @@ public class Dropdown {
 		Thread.sleep(3000);
 		Select select = new Select(fruitsdropdown);
 		Thread.sleep(5000);
-		//select.selectByIndex(1);
+		select.selectByIndex(1);
 		//Thread.sleep(6000);
 		//select.selectByVisibleText("Mango");
 		//Thread.sleep(6000);
-		List<WebElement> options =select.getOptions();
+		/*List<WebElement> options =select.getOptions();
 		for(WebElement option:options) {
 			System.out.println(option.getText());
 		}
-		Thread.sleep(6000);
-		driver.quit();
+		Thread.sleep(6000);*/
+		//driver.quit();
 		
 
 	}
