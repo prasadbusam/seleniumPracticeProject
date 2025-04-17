@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Listener.Orange_hrm">
+      <class name="TestNG_New.Cross_1">
         <methods>
-          <include name="Seup"/>
-          <include name="tearDown"/>
-          <include name="Testlogo"/>
+          <include name="logix"/>
+          <include name="cleanup"/>
+          <include name="regi"/>
+          <include name="Up"/>
         </methods>
-      </class> <!-- Listener.Orange_hrm -->
+      </class> <!-- TestNG_New.Cross_1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -3,8 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="TestNG_New.Annotation_demo"></class>
-      <class name="TestNG_New.TestNG_Demo"></class>
+      <class name="TestNG_New.Sample"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
