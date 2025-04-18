@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-17T19:13:32 IST" name="Default suite" finished-at="2025-04-17T19:13:32 IST" duration-ms="87">
+  <suite started-at="2025-04-18T20:16:51 IST" name="Default suite" finished-at="2025-04-18T20:16:54 IST" duration-ms="3141">
     <groups>
     </groups>
-    <test started-at="2025-04-17T19:13:32 IST" name="Default test" finished-at="2025-04-17T19:13:32 IST" duration-ms="87">
-      <class name="TestNG_New.Time1">
-        <test-method signature="sample()[pri:0, instance:TestNG_New.Time1@1ed6388a]" started-at="2025-04-17T19:13:32 IST" name="sample" finished-at="2025-04-17T19:13:32 IST" duration-ms="15" status="PASS">
+    <test started-at="2025-04-18T20:16:51 IST" name="Default test" finished-at="2025-04-18T20:16:54 IST" duration-ms="3141">
+      <class name="TestNG_New.Assertionsss">
+        <test-method signature="title1()[pri:0, instance:TestNG_New.Assertionsss@576d5deb]" started-at="2025-04-18T20:16:51 IST" name="title1" finished-at="2025-04-18T20:16:54 IST" duration-ms="3093" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sample -->
-        <test-method signature="shampoo()[pri:0, instance:TestNG_New.Time1@1ed6388a]" started-at="2025-04-17T19:13:32 IST" name="shampoo" finished-at="2025-04-17T19:13:32 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shampoo -->
-        <test-method signature="product()[pri:0, instance:TestNG_New.Time1@1ed6388a]" started-at="2025-04-17T19:13:32 IST" name="product" finished-at="2025-04-17T19:13:32 IST" depends-on-methods="TestNG_New.Time1.sample" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- product -->
-      </class> <!-- TestNG_New.Time1 -->
+        </test-method> <!-- title1 -->
+      </class> <!-- TestNG_New.Assertionsss -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,14 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNG_New.Cross_1">
+      <class name="TestNG_New.Assertionsss">
         <methods>
-          <include name="logix"/>
-          <include name="cleanup"/>
-          <include name="regi"/>
-          <include name="Up"/>
+          <include name="title1"/>
         </methods>
-      </class> <!-- TestNG_New.Cross_1 -->
+      </class> <!-- TestNG_New.Assertionsss -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
