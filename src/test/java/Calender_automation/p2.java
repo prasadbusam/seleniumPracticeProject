@@ -16,7 +16,7 @@ package Calender_automation;
 import Testng_work_demo.Practice_Login;
 
 		public class p2 {
-			private static final String Practice = null;
+		private static final String Practice = null;
 			private static final String SuperSecretPassword = null;
 			static WebDriver d;
 			public static void main(String[] args) throws IOException, InterruptedException {
