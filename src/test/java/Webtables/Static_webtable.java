@@ -25,7 +25,19 @@ public class Static_webtable {
 		}*/
 		int columns=driver.findElements(By.xpath("//*[@name='BookTable']//th")).size();
 		System.out.println("print no of columns :"+columns);
+		String book=driver.findElement(By.xpath("//*[@name='BookTable']//tr[4]/td[2]")).getText();
+		System.out.println("Print the book name :"+book);
+		
+		String book1=driver.findElement(By.xpath("//*[@name='BookTable']//tr[3]/td[2]")).getText();
+		System.out.println("Print the result :"+book1);
+		
+		for(int r=2;r<=rows;r++) {
+			String price=driver.findElement(By.xpath("//*[@name='BookTable']//tr["+r+"]//td[4]")).getText();
+			if(price.equals("300")) {
+				System.out.println("Print the particular :"+price );
+		}
 
 	}
 
+}
 }
