@@ -1,11 +1,9 @@
 package Webtables;
 
 import java.time.Duration;
-import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Static_webtable {
@@ -36,8 +34,10 @@ public class Static_webtable {
 			if(price.equals("300")) {
 				System.out.println("Print the particular :"+price );
 		}
+			
 
 	}
 
 }
 }
+
